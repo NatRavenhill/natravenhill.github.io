@@ -1,0 +1,15 @@
+body {
+    background: black;
+ }
+ 
+ .jumbotron {
+   background:black;
+   color: white;
+   position: absolute;
+   top: 50%;
+   
+ }
+ 
+ img {
+   height:50px;  
+ }
