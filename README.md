@@ -1,5 +1,4 @@
-## natravenhill.github.io
-Personal Site
+## natravenhill.github.io - Personal Site
 
 Uses the Freelancer template from Start Bootstrap:
 
