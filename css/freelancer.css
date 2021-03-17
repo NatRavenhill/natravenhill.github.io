@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
+ :root {
+  --color1: #502c3e;
+  --color2: #4178B4;
+  --color3: #76128f;
+}
+
 body {
   font-family: 'Lato';
 }
@@ -49,15 +55,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #9c18bc;
+  background-color: var(--color2);
 }
 
 hr.star-dark {
-  border-color: #502c3e;
+  border-color: var(--color1);
 }
 
 hr.star-dark:after {
-  color: #502c3e;
+  color: var(--color1);
   background-color: white;
 }
 
@@ -124,7 +130,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #9c18bc;
+  color: var(--color2);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -132,7 +138,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #9c18bc;
+  color: var(--color2);
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +163,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #9c18bc;
+    background: var(--color2);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #9c18bc;
+    background: var(--color2);
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -216,7 +222,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(156, 24, 188, 0.9);
+  background-color: var(--color3);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -317,7 +323,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #9c18bc;
+  color: var(--color2);
 }
 
 form .row:first-child .floating-label-form-group {
@@ -327,7 +333,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #502c3e;
+  background-color: var(--color1);
   color: #fff;
 }
 
@@ -336,11 +342,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #9c18bc;
+  color: var(--color2);
 }
 
 a:focus, a:hover, a:active {
-  color: #76128f;
+  color: var(--color3);
 }
 
 .btn {
@@ -348,34 +354,34 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #9c18bc !important;
+  background-color: var(--color2) !important;
 }
 
 .bg-secondary {
-  background-color: #502c3e !important;
+  background-color: var(--color1) !important;
 }
 
 .text-primary {
-  color: #9c18bc !important;
+  color: var(--color2) !important;
 }
 
 .text-secondary {
-  color: #502c3e !important;
+  color: var(--color1) !important;
 }
 
 .btn-primary {
-  background-color: #9c18bc;
-  border-color: #9c18bc;
+  background-color: var(--color2);
+  border-color: var(--color2);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #76128f;
-  border-color: #76128f;
+  background-color: var(--color3);
+  border-color: var(--color3);
 }
 
 .btn-secondary {
-  background-color: #502c3e;
-  border-color: #502c3e;
+  background-color: var(--color1);
+  border-color: var(--color1);
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
